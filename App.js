@@ -37,7 +37,7 @@ export default function App() {
     try {
       await AsyncStorage.setItem('focusHistory', JSON.stringify(focusHistory));
     } catch (e) {
-      console.leg(e);
+      console.log(e);
     }
   };
   const loadFocusHistory = async () => {
